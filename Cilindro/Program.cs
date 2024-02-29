@@ -11,8 +11,7 @@ namespace Cilindro
             Console.Write("Enter the radius of the cylinder: ");
             float radius = float.Parse(Console.ReadLine());
 
-            
-
+            float V = Math.PI * Math.Pow(radius, 2) * height;
         }
     }
 }
