@@ -14,7 +14,8 @@ namespace Cilindro
             float V = Math.PI * Math.Pow(radius, 2) * height;
             float Sa = 2 * Math.PI * radius * (radius + height);
 
-            Console.WriteLine($"")
+            Console.WriteLine($"The volume of the cylinder {V:F2}");
+            
         }
     }
 }
