@@ -15,7 +15,7 @@ namespace Cilindro
             float Sa = 2 * Math.PI * radius * (radius + height);
 
             Console.WriteLine($"The volume of the cylinder {V:F2}");
-            
+            Console.WriteLine($"The surface area of the cylinder {Sa:F2}");
         }
     }
 }
