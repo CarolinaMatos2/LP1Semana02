@@ -9,7 +9,7 @@ namespace SmoothOperator
             Console.Write("Enter a non-negative integer: ");
             string input = Console.ReadLine();
 
-            
+            byte nm = (byte)(int.TryParse(str) && userInput >= 0);
         }
     }
 }
