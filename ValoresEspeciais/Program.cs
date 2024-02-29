@@ -56,7 +56,20 @@ namespace ValoresEspeciais
             char c2 = char.MinValue;
             Console.WriteLine(c1);
             Console.WriteLine(c2);
-            
+
+            // special values and NaN
+            double x1 = double.PositiveInfinity;
+            double x2 = double.NegativeInfinity;
+            Console.WriteLine(x1);
+            Console.WriteLine(x2);
+
+            float f1 = float.PositiveInfinity;
+            float f2 = float.NegativeInfinity;
+            Console.WriteLine(f1);
+            Console.WriteLine(f2);
+
+            float f3 = float.PositiveInfinity;
+            Console.WriteLine(f3);
         }
     }
 }
