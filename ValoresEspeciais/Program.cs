@@ -83,6 +83,11 @@ namespace ValoresEspeciais
             float fl2 = float.MaxValue + 1;
             Console.WriteLine(fl1);
             Console.WriteLine(fl2);
+
+            // underflow in float
+            float f1 , f2 ;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f);
         }
     }
 }
