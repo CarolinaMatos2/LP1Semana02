@@ -70,6 +70,16 @@ namespace ValoresEspeciais
 
             float f3 = float.PositiveInfinity;
             Console.WriteLine(f3);
+
+            // Ex 7 OverFlow in uint
+            uint ut = uint.MaxValue;
+            Console.WriteLine($"Maximum value for uint {ut}");
+            
+            uint OverFlowResult = ut + 1;
+            Console.WriteLine($"Overflow in uint {OverFlowResult}");
+
+
+
         }
     }
 }
