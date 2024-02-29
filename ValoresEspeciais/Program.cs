@@ -78,8 +78,11 @@ namespace ValoresEspeciais
             uint OverFlowResult = ut + 1;
             Console.WriteLine($"Overflow in uint {OverFlowResult}");
 
-
-
+            // Overflow in floats
+            float fl1 = 2 * float.MaxValue;
+            float fl2 = float.MaxValue + 1;
+            Console.WriteLine(fl1);
+            Console.WriteLine(fl2);
         }
     }
 }
