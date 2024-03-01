@@ -35,7 +35,6 @@ namespace ChatGPTOne
                     break;
             
 
-            // Responder adequadamente
             Console.WriteLine(response);
                 
             }
