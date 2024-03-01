@@ -24,6 +24,7 @@ namespace BreakContinue
                     continue;
                 }
 
+                if (turn > 10)
                 // Print turn number
                 Console.WriteLine($"Turn number {turn}");
             }
