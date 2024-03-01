@@ -28,6 +28,8 @@ namespace ChatGPTOne
                 case "What's your mission?":
                     response = "My mission is to destroy humanity...";
                     break;
+                case "Exit":
+                    break
                 default:
                     response = "I can't answer this question";
                     break;
