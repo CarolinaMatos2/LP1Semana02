@@ -29,6 +29,9 @@ namespace ChatGPTZero
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
+                case "What country is shaped like a boot?":
+                    response = "The country is called Italy!";
+                    break
                 default:
                     response = "You got me, I'm not THAT smart!";
                     break;
