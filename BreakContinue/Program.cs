@@ -24,7 +24,7 @@ namespace BreakContinue
                     continue;
                 }
 
-                if (turn =! 10)
+                if (turn != 10)
                 {
                     continue;
                 }
