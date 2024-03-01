@@ -31,9 +31,13 @@ namespace ChatGPTZero
                     break;
                 case "What country is shaped like a boot?":
                     response = "The country is called Italy!";
-                    break
+                    break;
                 case "What is the largest planet in the solar system?":
-                    response = "Jupiter!"
+                    response = "Jupiter!";
+                    break;
+                case "What is the most famous band in the world?":
+                    response = "Of course it's BTS!";
+                    break;
                 default:
                     response = "You got me, I'm not THAT smart!";
                     break;
